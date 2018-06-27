@@ -1,0 +1,65 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/main2</item>
+        <item name="colorPrimaryDark">@color/main2</item>
+        <item name="colorAccent">@color/main2</item>
+        <item name="android:windowIsTranslucent">true</item>        <!-- 设置透明属性为true -->
+    </style>
+
+    <style name="CommonTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/main2</item>
+        <item name="colorPrimaryDark">@color/main2</item>
+        <item name="colorAccent">@color/main2</item>
+        <item name="android:windowAnimationStyle">@style/MyActivitySiwtchAnimation</item>
+    </style>
+
+    <style name="dot_style">
+        <item name="android:layout_width">5dip</item>
+        <item name="android:layout_height">5dip</item>
+        <item name="android:background">@drawable/dot_normal</item>
+        <item name="android:layout_marginLeft">1.5dip</item>
+        <item name="android:layout_marginRight">1.5dip</item>
+    </style>
+
+
+    <style name="radioButtonStyle">
+        <item name="android:layout_marginTop">2dp</item>
+        <item name="android:drawablePadding">8dp</item>
+        <item name="android:button">@null</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="MaterialSearchViewStyle">
+        <!-- Background for the search bar-->
+        <item name="searchBackground">@color/main</item>
+        <!-- Change voice icon-->
+        <item name="searchVoiceIcon">@drawable/ic_action_voice_search_inverted</item>
+        <!-- Change clear text icon-->
+        <item name="searchCloseIcon">@drawable/ic_action_navigation_close_inverted</item>
+        <!-- Change up icon-->
+        <item name="searchBackIcon">@drawable/ic_action_navigation_arrow_back_inverted</item>
+        <!-- Change icon for the suggestions-->
+        <item name="searchSuggestionIcon">@drawable/ic_suggestion</item>
+        <!-- Change background for the suggestions list view-->
+        <item name="searchSuggestionBackground">@android:color/white</item>
+        <!-- Change text color for edit text. This will also be the color of the cursor-->
+        <item name="android:textColor">@android:color/white</item>
+        <!-- Change hint text color for edit text-->
+        <item name="android:textColorHint">#c0bcbe</item>
+        <!-- Hint for edit text-->
+        <item name="android:hint">@string/search_hint</item>
+    </style>
+
+    <!-- 普通页面的切换动画 -->
+    <style name="MyActivitySiwtchAnimation" parent="@android:style/Animation.Translucent">
+        <item name="android:windowEnterAnimation">@anim/anim_in</item>
+        <item name="android:windowExitAnimation">@anim/anim_out</item>
+    </style>
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioGroup
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:background="@color/halfgray"
+        android:gravity="bottom"
+        android:id="@+id/radioGroup"
+        android:clipChildren="false">
+
+        <RadioButton
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            style="@style/radioButtonStyle"
+            android:id="@+id/movie_radiobutton"
+            android:drawableTop="@drawable/main_radiobutton_style"
+            android:text="@string/main"/>
+
+        <RadioButton
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/fun_radiobutton_style"
+            android:id="@+id/leaderboard_radiobutton"
+            style="@style/radioButtonStyle"
+            android:text="@string/leader"
+        />
+
+
+
+        <RadioButton
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            style="@style/radioButtonStyle"
+            android:id="@+id/personal_radiobutton"
+            android:drawableTop="@drawable/personal_radiobutton_style"
+            android:text="@string/personal"/>
+    </RadioGroup>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 边框颜色-->
+    <item>
+        <shape>
+            <solid android:color="@color/gray"></solid>
+        </shape>
+    </item>
+    <!-- 只有底边有边框 -->
+    <item android:bottom="0.5dp"
+        >
+        <!-- 主背景颜色 -->
+        <shape>
+            <solid android:color="@color/halfwhite"></solid>
+        </shape>
+    </item>
+
+</layer-list>

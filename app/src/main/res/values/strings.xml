@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">豆瓣</string>
+    <string name="main">首页</string>
+    <string name="personal">个人信息</string>
+    <string name="fun">有趣</string>
+    <string name="search">搜索电影</string>
+    <string name="leader">排行榜</string>
+</resources>
