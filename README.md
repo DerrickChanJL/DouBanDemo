@@ -14,18 +14,15 @@
 
 ##依赖：
 
-[SmartRefreshLayout][2]
-[2]:https://github.com/scwang90/SmartRefreshLayout/blob/release/README.md 
-[BaseRecyclerViewAdapterHelper][3]
-[3]:https://github.com/CymChad/BaseRecyclerViewAdapterHelper
-[网络请求库 retrofit + rxjava2 + okhttp][4]
-[4]:https://github.com/DerrickChanJL/DouBanDemo/tree/master/app/src/main/java/com/example/android/douban/network
-[material design风格][5]
-[5]:http://design.1sters.com/
+
+[SmartRefreshLayout](https://github.com/scwang90/SmartRefreshLayout/blob/release/README.md)
+[BaseRecyclerViewAdapterHelper](https://github.com/CymChad/BaseRecyclerViewAdapterHelper)
+[网络请求库 retrofit + rxjava2 + okhttp](https://github.com/DerrickChanJL/DouBanDemo/tree/master/app/src/main/java/com/example/android/douban/network)
+[material design风格](http://design.1sters.com/)
 ##
 
 
 >有可能gif图太大，无法显示gif图
 
-github地址[1]
-[1]:https://github.com/DerrickChanJL/DouBanDemo
+
+[github地址](https://github.com/DerrickChanJL/DouBanDemo)
