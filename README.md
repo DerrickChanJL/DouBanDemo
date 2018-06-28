@@ -27,6 +27,5 @@
 
 >有可能gif图太大，无法显示gif图
 
-[github地址][1]
-[1]:https://github.com/DerrickChanJL/DouBanDemo "github地址"
-
+github地址[1]
+[1]:https://github.com/DerrickChanJL/DouBanDemo

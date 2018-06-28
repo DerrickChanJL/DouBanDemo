@@ -10,7 +10,7 @@ public class URLConfig {
     //BASE API
     public final static String BASE_URI = "https://api.douban.com/v2/movie/";//"http://172.27.167.12:8080/javaweb-prj1/";
 
-    public final static String ACCOUNT_URL = "http://192.168.201.1:8080/douban/";
+    public final static String ACCOUNT_URL = "http://192.168.23.1:8080/douban/";
 
     public final static String SEARCH_URL = "http://api01.bitspaceman.com:8000/movie/";
 
